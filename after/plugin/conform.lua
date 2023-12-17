@@ -15,6 +15,7 @@ conform.setup({
 		c = { "clang-format" },
 		cpp = { "clang-format" },
 		lua = { "stylua" },
+		go = { "goimports" },
 	},
 	format_on_save = {
 		lsp_fallback = true,
