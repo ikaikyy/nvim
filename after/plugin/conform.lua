@@ -22,10 +22,3 @@ conform.setup({
 		async = false,
 	},
 })
-
-vim.keymap.set({ "n", "v" }, "<leader>fmt", function()
-	conform.format({
-		lsp_fallback = true,
-		async = false,
-	})
-end, { desc = "Format file or range (in visual mode)" })
